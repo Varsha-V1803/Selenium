@@ -18,8 +18,7 @@ public void id()//using id selector we can fastly locate a webelement
 	//WebElement elementname=driver.findElement(By.locator(locatorvalue));//syntax to locate webelement,By-class and inside it 8 locators are present
 	WebElement textfield=driver.findElement(By.id("single-input-field"));//textfield is located
 	//textfield.sendKeys("Varsha Venu");
-	WebElement button=driver.findElement(By.id("button-one"));//used to locate the button
-	//button.click();
+	 
 	WebElement buttonGettotal=driver.findElement(By.id("button-two"));//used to locate the button
 	//buttonGettotal.click();
 	WebElement textfield1=driver.findElement(By.id("value-a"));//textfield is located
@@ -40,10 +39,10 @@ public void className()
 }
 public void name()
 {
-WebElement name1=driver.findElement(By.className("viewport"));
-WebElement name2=driver.findElement(By.className("author"));
-WebElement name3=driver.findElement(By.className("keywords"));
-WebElement name4=driver.findElement(By.className("description"));
+WebElement name1=driver.findElement(By.name("viewport"));
+WebElement name2=driver.findElement(By.name("author"));
+WebElement name3=driver.findElement(By.name("keywords"));
+WebElement name4=driver.findElement(By.name("description"));
 }
 public void linktext()
 {
